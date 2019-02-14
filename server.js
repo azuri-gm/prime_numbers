@@ -5,6 +5,7 @@ const PrimeNumberController = require('./controllers/primeNumber.controller');
 const app = express();
 
 app.use(cors());
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.use('/api', PrimeNumberController);
 
