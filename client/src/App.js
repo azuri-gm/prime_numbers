@@ -6,6 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="body">
+        <h1>Prime Number Sum Challenge</h1>
         <Input />
       </div>
     );

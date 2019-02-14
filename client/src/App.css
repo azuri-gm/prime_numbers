@@ -3,3 +3,16 @@
   padding: 0;
   width: 100px;
 }
+
+h1 {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  background: peachpuff;
+  width: 50%;
+  color: purple;
+}

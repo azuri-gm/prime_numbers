@@ -43,7 +43,7 @@ export default class Input extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-sm-4 col-md-4 col-lg-4">
+          <div className="col-sm-6 col-md-6 col-lg-6">
             <input
               type="text"
               onChange={this.handleChange}
@@ -51,7 +51,7 @@ export default class Input extends Component {
               className="input_text"
             />
           </div>
-          <div className="col-sm-4 col-md-4 col-lg-4">
+          <div className="col-sm-6 col-md-6 col-lg-6">
             <button
               type="button"
               onClick={this.handleClick}
