@@ -1,5 +1,5 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+const path = require('path');
 const cors = require('cors');
 const PrimeNumberController = require('./controllers/primeNumber.controller');
 const app = express();
