@@ -9,5 +9,5 @@ app.use(cors());
 app.use('/prime', PrimeNumberController);
 
 app.listen(process.env.PORT || 5000, () =>
-  console.log(`Server started on port ${PORT}`)
+  console.log(`Server started on port ${process.env.PORT}`)
 );
